@@ -8,3 +8,21 @@
 - Susan relatou que o novo site irá conter apenas os cursos de ensino-técnico do link: https://etecsalesgomes.cps.sp.gov.br/ensino-tecnico/
 - Joaquim da área pedagógica, relatou que as matérias de cada curso podem ser encontradas pela internet ou inventadas temporariamente, servindo como mock.
 - Steve, do marketing, quer um site atraente que funcione bem em navegadores modernos e seja compatível com dispositivos mobiles.
+
+## Desenvolvimento
+
+O frontend institucional usa React, Vite e TypeScript. Para iniciar localmente:
+
+```bash
+npm install
+npm run dev
+```
+
+Comandos de verificação:
+
+```bash
+npm run typecheck
+npm run build
+```
+
+O catálogo completo, a publicação de notícias e o backend permanecem para fases posteriores. Até o catálogo ser incorporado, a seção de cursos direciona para a oferta oficial da Etec Sales Gomes.
